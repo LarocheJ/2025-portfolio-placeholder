@@ -5,7 +5,6 @@
 
 .loading-bar__container {
   width: 100%;
-  padding-inline: 2rem;;
 }
 
 .loading-bar {
@@ -54,7 +53,7 @@
 }
 
 .text-blurb {
-  padding-inline: 2rem;
+  padding-inline: 4rem;
 }
 
 .tenor-gif-embed {
@@ -62,4 +61,10 @@
   max-width: 400px;
   margin: 0 auto 2rem;
   pointer-events: none;
+}
+
+@media all and (max-width: 600px) {
+  .text-blurb {
+    padding-inline: 0;
+  }
 }
